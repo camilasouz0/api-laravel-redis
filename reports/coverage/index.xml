@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Thu May 27 12:27:28 UTC 2021" phpunit="9.5.4" coverage="9.2.6">
+    <runtime name="PHP" version="7.4.9" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.9.6"/>
+  </build>
+  <project source="C:\wamp64\www\api-laravel\app">
+    <tests>
+      <test name="Tests\Feature\AuthenticationTest::test_login_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\AuthenticationTest::test_users_can_authenticate_using_the_login_screen" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\CustomerTest::test_example" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\EmailVerificationTest::test_email_verification_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\EmailVerificationTest::test_email_can_be_verified" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\ExampleTest::test_api" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordConfirmationTest::test_confirm_password_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordConfirmationTest::test_password_can_be_confirmed" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordResetTest::test_reset_password_link_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordResetTest::test_reset_password_link_can_be_requested" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordResetTest::test_reset_password_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\PasswordResetTest::test_password_can_be_reset_with_valid_token" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\RegistrationTest::test_registration_screen_can_be_rendered" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Feature\RegistrationTest::test_new_users_can_register" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="1161" comments="314" code="847" executable="150" executed="99" percent="66.00"/>
+        <methods count="37" tested="20" percent="54.05"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="24" tested="7" percent="29.17"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Console">
+        <totals>
+          <lines total="41" comments="16" code="25" executable="4" executed="3" percent="75.00"/>
+          <methods count="2" tested="1" percent="50.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Kernel.php" href="Console/Kernel.php.xml">
+          <totals>
+            <lines total="41" comments="16" code="25" executable="4" executed="3" percent="75.00"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Exceptions">
+        <totals>
+          <lines total="41" comments="15" code="26" executable="3" executed="3" percent="100.00"/>
+          <methods count="1" tested="1" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Handler.php" href="Exceptions/Handler.php.xml">
+          <totals>
+            <lines total="41" comments="15" code="26" executable="3" executed="3" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Http">
+        <totals>
+          <lines total="780" comments="193" code="587" executable="118" executed="73" percent="61.86"/>
+          <methods count="25" tested="12" percent="48.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="15" tested="2" percent="13.33"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <directory name="Controllers">
+          <totals>
+            <lines total="455" comments="94" code="361" executable="91" executed="55" percent="60.44"/>
+            <methods count="17" tested="8" percent="47.06"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="11" tested="2" percent="18.18"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <directory name="Auth">
+            <totals>
+              <lines total="344" comments="86" code="258" executable="67" executed="55" percent="82.09"/>
+              <methods count="14" tested="8" percent="57.14"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="8" tested="2" percent="25.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+            <file name="AuthenticatedSessionController.php" href="Http/Controllers/Auth/AuthenticatedSessionController.php.xml">
+              <totals>
+                <lines total="54" comments="17" code="37" executable="8" executed="4" percent="50.00"/>
+                <methods count="3" tested="2" percent="66.67"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="ConfirmablePasswordController.php" href="Http/Controllers/Auth/ConfirmablePasswordController.php.xml">
+              <totals>
+                <lines total="44" comments="11" code="33" executable="8" executed="8" percent="100.00"/>
+                <methods count="2" tested="2" percent="100.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="1" percent="100.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="EmailVerificationNotificationController.php" href="Http/Controllers/Auth/EmailVerificationNotificationController.php.xml">
+              <totals>
+                <lines total="27" comments="6" code="21" executable="4" executed="0" percent="0.00"/>
+                <methods count="1" tested="0" percent="0.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="EmailVerificationPromptController.php" href="Http/Controllers/Auth/EmailVerificationPromptController.php.xml">
+              <totals>
+                <lines total="23" comments="6" code="17" executable="3" executed="2" percent="66.67"/>
+                <methods count="1" tested="0" percent="0.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="NewPasswordController.php" href="Http/Controllers/Auth/NewPasswordController.php.xml">
+              <totals>
+                <lines total="65" comments="14" code="51" executable="18" executed="17" percent="94.44"/>
+                <methods count="2" tested="1" percent="50.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="PasswordResetLinkController.php" href="Http/Controllers/Auth/PasswordResetLinkController.php.xml">
+              <totals>
+                <lines total="47" comments="13" code="34" executable="9" executed="8" percent="88.89"/>
+                <methods count="2" tested="1" percent="50.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="RegisteredUserController.php" href="Http/Controllers/Auth/RegisteredUserController.php.xml">
+              <totals>
+                <lines total="54" comments="13" code="41" executable="12" executed="12" percent="100.00"/>
+                <methods count="2" tested="2" percent="100.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="1" percent="100.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+            <file name="VerifyEmailController.php" href="Http/Controllers/Auth/VerifyEmailController.php.xml">
+              <totals>
+                <lines total="30" comments="6" code="24" executable="5" executed="4" percent="80.00"/>
+                <methods count="1" tested="0" percent="0.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+          </directory>
+          <file name="AuthController.php" href="Http/Controllers/AuthController.php.xml">
+            <totals>
+              <lines total="31" comments="5" code="26" executable="6" executed="0" percent="0.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="CatController.php" href="Http/Controllers/CatController.php.xml">
+            <totals>
+              <lines total="28" comments="1" code="27" executable="6" executed="0" percent="0.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="Controller.php" href="Http/Controllers/Controller.php.xml">
+            <totals>
+              <lines total="13" comments="0" code="13" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="RedisController.php" href="Http/Controllers/RedisController.php.xml">
+            <totals>
+              <lines total="39" comments="2" code="37" executable="12" executed="0" percent="0.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Middleware">
+          <totals>
+            <lines total="166" comments="49" code="117" executable="9" executed="6" percent="66.67"/>
+            <methods count="3" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="3" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <file name="Authenticate.php" href="Http/Middleware/Authenticate.php.xml">
+            <totals>
+              <lines total="21" comments="6" code="15" executable="3" executed="2" percent="66.67"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="EncryptCookies.php" href="Http/Middleware/EncryptCookies.php.xml">
+            <totals>
+              <lines total="17" comments="5" code="12" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="PreventRequestsDuringMaintenance.php" href="Http/Middleware/PreventRequestsDuringMaintenance.php.xml">
+            <totals>
+              <lines total="17" comments="5" code="12" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="RedirectIfAuthenticated.php" href="Http/Middleware/RedirectIfAuthenticated.php.xml">
+            <totals>
+              <lines total="32" comments="8" code="24" executable="5" executed="4" percent="80.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="TrimStrings.php" href="Http/Middleware/TrimStrings.php.xml">
+            <totals>
+              <lines total="19" comments="5" code="14" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="TrustHosts.php" href="Http/Middleware/TrustHosts.php.xml">
+            <totals>
+              <lines total="20" comments="5" code="15" executable="1" executed="0" percent="0.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="TrustProxies.php" href="Http/Middleware/TrustProxies.php.xml">
+            <totals>
+              <lines total="23" comments="10" code="13" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="VerifyCsrfToken.php" href="Http/Middleware/VerifyCsrfToken.php.xml">
+            <totals>
+              <lines total="17" comments="5" code="12" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Requests">
+          <totals>
+            <lines total="93" comments="29" code="64" executable="18" executed="12" percent="66.67"/>
+            <methods count="5" tested="4" percent="80.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <directory name="Auth">
+            <totals>
+              <lines total="93" comments="29" code="64" executable="18" executed="12" percent="66.67"/>
+              <methods count="5" tested="4" percent="80.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+            <file name="LoginRequest.php" href="Http/Requests/Auth/LoginRequest.php.xml">
+              <totals>
+                <lines total="93" comments="29" code="64" executable="18" executed="12" percent="66.67"/>
+                <methods count="5" tested="4" percent="80.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="1" tested="0" percent="0.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+            </file>
+          </directory>
+        </directory>
+        <file name="Kernel.php" href="Http/Kernel.php.xml">
+          <totals>
+            <lines total="66" comments="21" code="45" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Models">
+        <totals>
+          <lines total="89" comments="20" code="69" executable="0" executed="0" percent="0"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Cats.php" href="Models/Cats.php.xml">
+          <totals>
+            <lines total="24" comments="5" code="19" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="Flight.php" href="Models/Flight.php.xml">
+          <totals>
+            <lines total="11" comments="0" code="11" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="Gatos.php" href="Models/Gatos.php.xml">
+          <totals>
+            <lines total="11" comments="0" code="11" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="User.php" href="Models/User.php.xml">
+          <totals>
+            <lines total="43" comments="15" code="28" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Providers">
+        <totals>
+          <lines total="174" comments="60" code="114" executable="23" executed="19" percent="82.61"/>
+          <methods count="7" tested="5" percent="71.43"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="5" tested="3" percent="60.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="AppServiceProvider.php" href="Providers/AppServiceProvider.php.xml">
+          <totals>
+            <lines total="28" comments="10" code="18" executable="2" executed="2" percent="100.00"/>
+            <methods count="2" tested="2" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="AuthServiceProvider.php" href="Providers/AuthServiceProvider.php.xml">
+          <totals>
+            <lines total="30" comments="10" code="20" executable="2" executed="2" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="BroadcastServiceProvider.php" href="Providers/BroadcastServiceProvider.php.xml">
+          <totals>
+            <lines total="21" comments="5" code="16" executable="3" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="EventServiceProvider.php" href="Providers/EventServiceProvider.php.xml">
+          <totals>
+            <lines total="32" comments="10" code="22" executable="1" executed="1" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="RouteServiceProvider.php" href="Providers/RouteServiceProvider.php.xml">
+          <totals>
+            <lines total="63" comments="25" code="38" executable="15" executed="14" percent="93.33"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="View">
+        <totals>
+          <lines total="36" comments="10" code="26" executable="2" executed="1" percent="50.00"/>
+          <methods count="2" tested="1" percent="50.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="1" percent="50.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <directory name="Components">
+          <totals>
+            <lines total="36" comments="10" code="26" executable="2" executed="1" percent="50.00"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="2" tested="1" percent="50.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <file name="AppLayout.php" href="View/Components/AppLayout.php.xml">
+            <totals>
+              <lines total="18" comments="5" code="13" executable="1" executed="0" percent="0.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="GuestLayout.php" href="View/Components/GuestLayout.php.xml">
+            <totals>
+              <lines total="18" comments="5" code="13" executable="1" executed="1" percent="100.00"/>
+              <methods count="1" tested="1" percent="100.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="1" percent="100.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+    </directory>
+  </project>
+</phpunit>
