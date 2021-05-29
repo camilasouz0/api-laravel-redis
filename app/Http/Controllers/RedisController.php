@@ -22,14 +22,15 @@ class RedisController extends Controller
         foreach(json_decode($resultado) as $gato){ 
             $cats = new Cats;
             $cats->name = $gato->name;
-            // $cats->temperament = $gato->temperament;
+            // $cats->metric = $gato->weight->metric;
+            // echo $gato->temperament;
             // $cats->origin = $gato->origin;
             
             Redis::set($gato->name, serialize($gato));
             Redis::expire($gato->name, 60 * 60);
 
             if(Redis::get($resultado)){
-                $CatExiste = Cats::where('name')->exists();
+                // $CatExiste = Cats::where('name')->exists();
                 $cats->save();                  
             }       
          }

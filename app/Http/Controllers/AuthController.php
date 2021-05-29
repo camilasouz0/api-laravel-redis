@@ -12,20 +12,20 @@ use Illuminate\Http\Request;
      * @return Response
      */
 
-class AuthController extends Controller
-{
-    public function authenticate(Request $request)
-    {
-        $credentials = $request->only('email', 'password');
+// class AuthController extends Controller
+// {
+//     public function authenticate(Request $request)
+//     {
+//         $credentials = $request->only('email', 'password');
 
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
+//         if (Auth::attempt($credentials)) {
+//             $request->session()->regenerate();
 
-            return redirect()->intended('inicio');
-        }
+//             return redirect()->intended('inicio');
+//         }
 
-        return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ]);
-    }
-}
+//         return back()->withErrors([
+//             'email' => 'The provided credentials do not match our records.',
+//         ]);
+//     }
+// }
