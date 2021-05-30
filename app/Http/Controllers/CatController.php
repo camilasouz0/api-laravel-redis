@@ -11,18 +11,9 @@ class CatController extends Controller
     public function index(Request $request)
     {
         $consulta = $request->query('consulta');
-        
-        if(!Redis::get($consulta)){
-        
-        $CatSQL = new RedisController;
-        $resultado = $CatSQL->GravarCats($consulta);
-        
-        }else{
-            $resultado = Redis::get($consulta);
-        }
+        $listarRedis = new RedisController;       
+        $resultado = $listarRedis->GravarCats($listarRedis->listarCats($consulta));
+  
         return view('inicio')->with('cats', $resultado);
-        
-       // return $resultado;
-    }
-    
+    }    
 }

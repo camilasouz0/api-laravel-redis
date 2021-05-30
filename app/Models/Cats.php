@@ -15,7 +15,7 @@ class Cats extends Model
      */
     protected $fillable = [
         'name',
-        'metric',
+        'weight',
         'temperament',
         'origin',
         'remember_token',

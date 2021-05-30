@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Http\Controllers\CatController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
 use App\Models\Cats;
@@ -8,7 +10,7 @@ use App\Models\Cats;
 class RedisController extends Controller
 {
 
-    public function GravarCats($array){
+    public function listarCats($gato){
         $opts = [
             "http" => [
                 "method" => "GET",
@@ -17,22 +19,30 @@ class RedisController extends Controller
         ];
         
         $context = stream_context_create($opts);
-        $resultado = file_get_contents('https://api.thecatapi.com/v1/breeds/search?q='.$array, false, $context);
-        
-        foreach(json_decode($resultado) as $gato){ 
-            $cats = new Cats;
-            $cats->name = $gato->name;
-            // $cats->temperament = $gato->temperament;
-            // $cats->origin = $gato->origin;
-            
-            Redis::set($gato->name, serialize($gato));
-            Redis::expire($gato->name, 60 * 60);
+        $resultado = file_get_contents('https://api.thecatapi.com/v1/breeds/search?q='.$gato, false, $context);
 
-            if(Redis::get($resultado)){
-                $CatExiste = Cats::where('name')->exists();
-                $cats->save();                  
-            }       
-         }
+        return $resultado;
+    }
+    public function GravarCats($resultado){
+        
+
+        foreach(json_decode($resultado) as $gato){ 
+            
+            if(Cats::find($gato->name)){
+               
+            }
+            elseif(Redis::exists($gato->name)){
+                Redis::set($gato->name, serialize($gato));
+                Redis::expire($gato->name, 2);
+            }else{
+                $cats = new Cats;
+                $cats->name = $gato->name;
+                $cats->metric = ($gato->weight)->metric;
+                $cats->temperament = $gato->temperament;
+                $cats->origin = $gato->origin;         
+                $cats->save();
+            }     
+        }
         return $resultado;
     }
   
