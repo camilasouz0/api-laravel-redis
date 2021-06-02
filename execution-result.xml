@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.158381">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.037935">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\wamp64\www\api-laravel\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.037935">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\wamp64\www\api-laravel\tests\Unit\ExampleTest.php" line="14" assertions="1" time="0.037935"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="1.120446">
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\wamp64\www\api-laravel\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="1.120446">
+        <testcase name="test_example" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" file="C:\wamp64\www\api-laravel\tests\Feature\ExampleTest.php" line="15" assertions="1" time="1.120446">
+          <system-out>phpinfo()
+PHP Version =&gt; 7.4.9
+
+System =&gt; Windows NT DESKTOP-3QG9MET 10.0 build 21387 (Windows 10) AMD64
+Build Date =&gt; Aug  4 2020 11:45:36
+Compiler =&gt; Visual C++ 2017
+Architecture =&gt; x64
+Configure Command =&gt; cscript /nologo /e:jscript configure.js  "--enable-snapshot-build" "--enable-debug-pack" "--with-pdo-oci=c:\php-snap-build\deps_aux\oracle\x64\instantclient_12_1\sdk,shared" "--with-oci8-12c=c:\php-snap-build\deps_aux\oracle\x64\instantclient_12_1\sdk,shared" "--enable-object-out-dir=../obj/" "--enable-com-dotnet=shared" "--without-analyzer" "--with-pgo"
+Server API =&gt; Command Line Interface
+Virtual Directory Support =&gt; enabled
+Configuration File (php.ini) Path =&gt; C:\WINDOWS
+Loaded Configuration File =&gt; C:\wamp64\bin\php\php7.4.9\php.ini
+Scan this dir for additional .ini files =&gt; (none)
+Additional .ini files parsed =&gt; (none)
+PHP API =&gt; 20190902
+PHP Extension =&gt; 20190902
+Zend Extension =&gt; 320190902
+Zend Extension Build =&gt; API320190902,TS,VC15
+PHP Extension Build =&gt; API20190902,TS,VC15
+Debug Build =&gt; no
+Thread Safety =&gt; enabled
+Thread API =&gt; Windows Threads
+Zend Signal Handling =&gt; disabled
+Zend Memory Manager =&gt; enabled
+Zend Multibyte Support =&gt; provided by mbstring
+IPv6 Support =&gt; enabled
+DTrace Support =&gt; disabled
+
+Registered PHP Streams =&gt; php, file, glob, data, http, ftp, zip, compress.zlib, compress.bzip2, https, ftps, phar
+Registered Stream Socket Transports =&gt; tcp, udp, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2, tlsv1.3
+Registered Stream Filters =&gt; convert.iconv.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, zlib.*, bzip2.*
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Xdebug v2.9.6, Copyright (c) 2002-2020, by Derick Rethans
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+bcmath
+
+BCMath support =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+bcmath.scale =&gt; 0 =&gt; 0
+
+bz2
+
+BZip2 Support =&gt; Enabled
+Stream Wrapper support =&gt; compress.bzip2://
+Stream Filter support =&gt; bzip2.decompress, bzip2.compress
+BZip2 Version =&gt; 1.0.8, 13-Jul-2019
+
+calendar
+
+Calendar support =&gt; enabled
+
+Core
+
+PHP Version =&gt; 7.4.9
+
+Directive =&gt; Local Value =&gt; Master Value
+allow_url_fopen =&gt; On =&gt; On
+allow_url_include =&gt; Off =&gt; Off
+arg_separator.input =&gt; &amp; =&gt; &amp;
+arg_separator.output =&gt; &amp; =&gt; &amp;
+auto_append_file =&gt; no value =&gt; no value
+auto_globals_jit =&gt; On =&gt; On
+auto_prepend_file =&gt; no value =&gt; no value
+browscap =&gt; no value =&gt; no value
+default_charset =&gt; UTF-8 =&gt; UTF-8
+default_mimetype =&gt; text/html =&gt; text/html
+disable_classes =&gt; no value =&gt; no value
+disable_functions =&gt; no value =&gt; no value
+display_errors =&gt; STDOUT =&gt; STDOUT
+display_startup_errors =&gt; On =&gt; On
+doc_root =&gt; no value =&gt; no value
+docref_ext =&gt; no value =&gt; no value
+docref_root =&gt; no value =&gt; no value
+enable_dl =&gt; Off =&gt; Off
+enable_post_data_reading =&gt; On =&gt; On
+error_append_string =&gt; no value =&gt; no value
+error_log =&gt; c:/wamp64/logs/php_error.log =&gt; c:/wamp64/logs/php_error.log
+error_prepend_string =&gt; no value =&gt; no value
+error_reporting =&gt; -1 =&gt; 32767
+expose_php =&gt; On =&gt; On
+extension_dir =&gt; c:/wamp64/bin/php/php7.4.9/ext/ =&gt; c:/wamp64/bin/php/php7.4.9/ext/
+file_uploads =&gt; On =&gt; On
+hard_timeout =&gt; 2 =&gt; 2
+highlight.comment =&gt; &lt;font style="color: #FF8000"&gt;#FF8000&lt;/font&gt; =&gt; &lt;font style="color: #FF8000"&gt;#FF8000&lt;/font&gt;
+highlight.default =&gt; &lt;font style="color: #0000BB"&gt;#0000BB&lt;/font&gt; =&gt; &lt;font style="color: #0000BB"&gt;#0000BB&lt;/font&gt;
+highlight.html =&gt; &lt;font style="color: #000000"&gt;#000000&lt;/font&gt; =&gt; &lt;font style="color: #000000"&gt;#000000&lt;/font&gt;
+highlight.keyword =&gt; &lt;font style="color: #007700"&gt;#007700&lt;/font&gt; =&gt; &lt;font style="color: #007700"&gt;#007700&lt;/font&gt;
+highlight.string =&gt; &lt;font style="color: #DD0000"&gt;#DD0000&lt;/font&gt; =&gt; &lt;font style="color: #DD0000"&gt;#DD0000&lt;/font&gt;
+html_errors =&gt; Off =&gt; Off
+ignore_repeated_errors =&gt; Off =&gt; Off
+ignore_repeated_source =&gt; Off =&gt; Off
+ignore_user_abort =&gt; Off =&gt; Off
+implicit_flush =&gt; On =&gt; On
+include_path =&gt; C:\wamp64\www\api-laravel\vendor/pear/archive_tar;C:\wamp64\www\api-laravel\vendor/pear/console_getopt;C:\wamp64\www\api-laravel\vendor/pear/pear;C:\wamp64\www\api-laravel\vendor/pear/structures_graph;C:\wamp64\www\api-laravel\vendor/pear/xml_util;.;C:\wamp64\bin\php\php7.4.9\pear =&gt; .;C:\wamp64\bin\php\php7.4.9\pear
+input_encoding =&gt; no value =&gt; no value
+internal_encoding =&gt; no value =&gt; no value
+log_errors =&gt; On =&gt; On
+log_errors_max_len =&gt; 1024 =&gt; 1024
+mail.add_x_header =&gt; Off =&gt; Off
+mail.force_extra_parameters =&gt; no value =&gt; no value
+mail.log =&gt; no value =&gt; no value
+max_execution_time =&gt; 0 =&gt; 0
+max_file_uploads =&gt; 20 =&gt; 20
+max_input_nesting_level =&gt; 64 =&gt; 64
+max_input_time =&gt; -1 =&gt; -1
+max_input_vars =&gt; 2500 =&gt; 2500
+memory_limit =&gt; -1 =&gt; -1
+open_basedir =&gt; no value =&gt; no value
+output_buffering =&gt; 0 =&gt; 0
+output_encoding =&gt; no value =&gt; no value
+output_handler =&gt; no value =&gt; no value
+post_max_size =&gt; 8M =&gt; 8M
+precision =&gt; 14 =&gt; 14
+realpath_cache_size =&gt; 4096K =&gt; 4096K
+realpath_cache_ttl =&gt; 120 =&gt; 120
+register_argc_argv =&gt; On =&gt; On
+report_memleaks =&gt; On =&gt; On
+report_zend_debug =&gt; Off =&gt; Off
+request_order =&gt; GP =&gt; GP
+sendmail_from =&gt; admin@wampserver.invalid =&gt; admin@wampserver.invalid
+sendmail_path =&gt; no value =&gt; no value
+serialize_precision =&gt; -1 =&gt; -1
+short_open_tag =&gt; Off =&gt; Off
+SMTP =&gt; localhost =&gt; localhost
+smtp_port =&gt; 25 =&gt; 25
+sys_temp_dir =&gt; no value =&gt; no value
+syslog.facility =&gt; LOG_USER =&gt; LOG_USER
+syslog.filter =&gt; no-ctrl =&gt; no-ctrl
+syslog.ident =&gt; php =&gt; php
+track_errors =&gt; Off =&gt; Off
+unserialize_callback_func =&gt; no value =&gt; no value
+upload_max_filesize =&gt; 2M =&gt; 2M
+upload_tmp_dir =&gt; c:/wamp64/tmp =&gt; c:/wamp64/tmp
+user_dir =&gt; no value =&gt; no value
+user_ini.cache_ttl =&gt; 300 =&gt; 300
+user_ini.filename =&gt; .user.ini =&gt; .user.ini
+variables_order =&gt; GPCS =&gt; GPCS
+windows.show_crt_warning =&gt; Off =&gt; Off
+xmlrpc_error_number =&gt; 0 =&gt; 0
+xmlrpc_errors =&gt; Off =&gt; Off
+zend.assertions =&gt; 1 =&gt; 1
+zend.detect_unicode =&gt; On =&gt; On
+zend.enable_gc =&gt; On =&gt; On
+zend.exception_ignore_args =&gt; Off =&gt; Off
+zend.multibyte =&gt; Off =&gt; Off
+zend.script_encoding =&gt; no value =&gt; no value
+
+ctype
+
+ctype functions =&gt; enabled
+
+curl
+
+cURL support =&gt; enabled
+cURL Information =&gt; 7.70.0
+Age =&gt; 6
+Features
+AsynchDNS =&gt; Yes
+CharConv =&gt; No
+Debug =&gt; No
+GSS-Negotiate =&gt; No
+IDN =&gt; Yes
+IPv6 =&gt; Yes
+krb4 =&gt; No
+Largefile =&gt; Yes
+libz =&gt; Yes
+NTLM =&gt; Yes
+NTLMWB =&gt; No
+SPNEGO =&gt; Yes
+SSL =&gt; Yes
+SSPI =&gt; Yes
+TLS-SRP =&gt; No
+HTTP2 =&gt; Yes
+GSSAPI =&gt; No
+KERBEROS5 =&gt; Yes
+UNIX_SOCKETS =&gt; Yes
+PSL =&gt; No
+HTTPS_PROXY =&gt; Yes
+MULTI_SSL =&gt; No
+BROTLI =&gt; No
+Protocols =&gt; dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, pop3, pop3s, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Host =&gt; x86_64-pc-win32
+SSL Version =&gt; OpenSSL/1.1.1g
+ZLib Version =&gt; 1.2.11
+libSSH Version =&gt; libssh2/1.9.0
+
+Directive =&gt; Local Value =&gt; Master Value
+curl.cainfo =&gt; no value =&gt; no value
+
+date
+
+date/time support =&gt; enabled
+timelib version =&gt; 2018.03
+"Olson" Timezone Database Version =&gt; 2020.1
+Timezone Database =&gt; internal
+Default timezone =&gt; UTC
+
+Directive =&gt; Local Value =&gt; Master Value
+date.default_latitude =&gt; 31.7667 =&gt; 31.7667
+date.default_longitude =&gt; 35.2333 =&gt; 35.2333
+date.sunrise_zenith =&gt; 90.583333 =&gt; 90.583333
+date.sunset_zenith =&gt; 90.583333 =&gt; 90.583333
+date.timezone =&gt; UTC =&gt; UTC
+
+dom
+
+DOM/XML =&gt; enabled
+DOM/XML API Version =&gt; 20031129
+libxml Version =&gt; 2.9.10
+HTML Support =&gt; enabled
+XPath Support =&gt; enabled
+XPointer Support =&gt; enabled
+Schema Support =&gt; enabled
+RelaxNG Support =&gt; enabled
+
+exif
+
+EXIF Support =&gt; enabled
+Supported EXIF Version =&gt; 0220
+Supported filetypes =&gt; JPEG, TIFF
+Multibyte decoding support using mbstring =&gt; enabled
+Extended EXIF tag formats =&gt; Canon, Casio, Fujifilm, Nikon, Olympus, Samsung, Panasonic, DJI, Sony, Pentax, Minolta, Sigma, Foveon, Kyocera, Ricoh, AGFA, Epson
+
+Directive =&gt; Local Value =&gt; Master Value
+exif.decode_jis_intel =&gt; JIS =&gt; JIS
+exif.decode_jis_motorola =&gt; JIS =&gt; JIS
+exif.decode_unicode_intel =&gt; UCS-2LE =&gt; UCS-2LE
+exif.decode_unicode_motorola =&gt; UCS-2BE =&gt; UCS-2BE
+exif.encode_jis =&gt; no value =&gt; no value
+exif.encode_unicode =&gt; ISO-8859-15 =&gt; ISO-8859-15
+
+fileinfo
+
+fileinfo support =&gt; enabled
+libmagic =&gt; 537
+
+filter
+
+Input Validation and Filtering =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+filter.default =&gt; unsafe_raw =&gt; unsafe_raw
+filter.default_flags =&gt; no value =&gt; no value
+
+gd
+
+GD Support =&gt; enabled
+GD Version =&gt; bundled (2.1.0 compatible)
+FreeType Support =&gt; enabled
+FreeType Linkage =&gt; with freetype
+FreeType Version =&gt; 2.9.1
+GIF Read Support =&gt; enabled
+GIF Create Support =&gt; enabled
+JPEG Support =&gt; enabled
+libJPEG Version =&gt; 9 compatible
+PNG Support =&gt; enabled
+libPNG Version =&gt; 1.6.34
+WBMP Support =&gt; enabled
+XPM Support =&gt; enabled
+libXpm Version =&gt; 30512
+XBM Support =&gt; enabled
+WebP Support =&gt; enabled
+BMP Support =&gt; enabled
+TGA Read Support =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+gd.jpeg_ignore_warning =&gt; 1 =&gt; 1
+
+gettext
+
+GetText Support =&gt; enabled
+
+gmp
+
+gmp support =&gt; enabled
+MPIR version =&gt; 3.0.0
+
+hash
+
+hash support =&gt; enabled
+Hashing Engines =&gt; md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+MHASH support =&gt; Enabled
+MHASH API Version =&gt; Emulated Support
+
+iconv
+
+iconv support =&gt; enabled
+iconv implementation =&gt; "libiconv"
+iconv library version =&gt; 1.16
+
+Directive =&gt; Local Value =&gt; Master Value
+iconv.input_encoding =&gt; no value =&gt; no value
+iconv.internal_encoding =&gt; no value =&gt; no value
+iconv.output_encoding =&gt; no value =&gt; no value
+
+imap
+
+IMAP c-Client Version =&gt; 2007f
+SSL Support =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+imap.enable_insecure_rsh =&gt; Off =&gt; Off
+
+intl
+
+Internationalization support =&gt; enabled
+ICU version =&gt; 66.1
+ICU Data version =&gt; 66.1
+ICU TZData version =&gt; 2019c
+ICU Unicode version =&gt; 13.0
+
+Directive =&gt; Local Value =&gt; Master Value
+intl.default_locale =&gt; no value =&gt; no value
+intl.error_level =&gt; 0 =&gt; 0
+intl.use_exceptions =&gt; 0 =&gt; 0
+
+json
+
+json support =&gt; enabled
+
+ldap
+
+LDAP Support =&gt; enabled
+Total Links =&gt; 0/unlimited
+API Version =&gt; 3001
+Vendor Name =&gt; OpenLDAP
+Vendor Version =&gt; 20447
+SASL Support =&gt; Enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+ldap.max_links =&gt; Unlimited =&gt; Unlimited
+
+libxml
+
+libXML support =&gt; active
+libXML Compiled Version =&gt; 2.9.10
+libXML Loaded Version =&gt; 20910
+libXML streams =&gt; enabled
+
+mbstring
+
+Multibyte Support =&gt; enabled
+Multibyte string engine =&gt; libmbfl
+HTTP input encoding translation =&gt; disabled
+libmbfl version =&gt; 1.3.2
+
+mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+
+Multibyte (japanese) regex support =&gt; enabled
+Multibyte regex (oniguruma) version =&gt; 6.9.4
+
+Directive =&gt; Local Value =&gt; Master Value
+mbstring.detect_order =&gt; no value =&gt; no value
+mbstring.encoding_translation =&gt; Off =&gt; Off
+mbstring.func_overload =&gt; 0 =&gt; 0
+mbstring.http_input =&gt; no value =&gt; no value
+mbstring.http_output =&gt; no value =&gt; no value
+mbstring.http_output_conv_mimetypes =&gt; ^(text/|application/xhtml\+xml) =&gt; ^(text/|application/xhtml\+xml)
+mbstring.internal_encoding =&gt; no value =&gt; no value
+mbstring.language =&gt; neutral =&gt; neutral
+mbstring.regex_retry_limit =&gt; 1000000 =&gt; 1000000
+mbstring.regex_stack_limit =&gt; 100000 =&gt; 100000
+mbstring.strict_detection =&gt; Off =&gt; Off
+mbstring.substitute_character =&gt; no value =&gt; no value
+
+mysqli
+
+MysqlI Support =&gt; enabled
+Client API library version =&gt; mysqlnd 7.4.9
+Active Persistent Links =&gt; 0
+Inactive Persistent Links =&gt; 0
+Active Links =&gt; 0
+
+Directive =&gt; Local Value =&gt; Master Value
+mysqli.allow_local_infile =&gt; Off =&gt; Off
+mysqli.allow_persistent =&gt; On =&gt; On
+mysqli.default_host =&gt; no value =&gt; no value
+mysqli.default_port =&gt; 3306 =&gt; 3306
+mysqli.default_pw =&gt; no value =&gt; no value
+mysqli.default_socket =&gt; no value =&gt; no value
+mysqli.default_user =&gt; no value =&gt; no value
+mysqli.max_links =&gt; Unlimited =&gt; Unlimited
+mysqli.max_persistent =&gt; Unlimited =&gt; Unlimited
+mysqli.reconnect =&gt; Off =&gt; Off
+mysqli.rollback_on_cached_plink =&gt; Off =&gt; Off
+
+mysqlnd
+
+mysqlnd =&gt; enabled
+Version =&gt; mysqlnd 7.4.9
+Compression =&gt; supported
+core SSL =&gt; supported
+extended SSL =&gt; supported
+Command buffer size =&gt; 4096
+Read buffer size =&gt; 32768
+Read timeout =&gt; 86400
+Collecting statistics =&gt; Yes
+Collecting memory statistics =&gt; Yes
+Tracing =&gt; n/a
+Loaded plugins =&gt; mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
+API Extensions =&gt; mysqli,pdo_mysql
+
+openssl
+
+OpenSSL support =&gt; enabled
+OpenSSL Library Version =&gt; OpenSSL 1.1.1g  21 Apr 2020
+OpenSSL Header Version =&gt; OpenSSL 1.1.1g  21 Apr 2020
+Openssl default config =&gt; C:\Program Files\Common Files\SSL/openssl.cnf
+
+Directive =&gt; Local Value =&gt; Master Value
+openssl.cafile =&gt; no value =&gt; no value
+openssl.capath =&gt; no value =&gt; no value
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support =&gt; enabled
+PCRE Library Version =&gt; 10.34 2019-11-21
+PCRE Unicode Version =&gt; 12.1.0
+PCRE JIT Support =&gt; enabled
+PCRE JIT Target =&gt; x86 64bit (little endian + unaligned)
+
+Directive =&gt; Local Value =&gt; Master Value
+pcre.backtrack_limit =&gt; 1000000 =&gt; 1000000
+pcre.jit =&gt; 1 =&gt; 1
+pcre.recursion_limit =&gt; 100000 =&gt; 100000
+
+PDO
+
+PDO support =&gt; enabled
+PDO drivers =&gt; mysql, sqlite
+
+pdo_mysql
+
+PDO Driver for MySQL =&gt; enabled
+Client API version =&gt; mysqlnd 7.4.9
+
+pdo_sqlite
+
+PDO Driver for SQLite 3.x =&gt; enabled
+SQLite Library =&gt; 3.31.1
+
+Phar
+
+Phar: PHP Archive support =&gt; enabled
+Phar API version =&gt; 1.1.1
+Phar-based phar archives =&gt; enabled
+Tar-based phar archives =&gt; enabled
+ZIP-based phar archives =&gt; enabled
+gzip compression =&gt; enabled
+bzip2 compression =&gt; enabled
+OpenSSL support =&gt; enabled
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive =&gt; Local Value =&gt; Master Value
+phar.cache_list =&gt; no value =&gt; no value
+phar.readonly =&gt; On =&gt; On
+phar.require_hash =&gt; On =&gt; On
+
+readline
+
+Readline Support =&gt; enabled
+Readline library =&gt; WinEditLine
+
+Directive =&gt; Local Value =&gt; Master Value
+cli.pager =&gt; no value =&gt; no value
+cli.prompt =&gt; \b \&gt;  =&gt; \b \&gt; 
+
+Reflection
+
+Reflection =&gt; enabled
+
+session
+
+Session Support =&gt; enabled
+Registered save handlers =&gt; files user 
+Registered serializer handlers =&gt; php_serialize php php_binary 
+
+Directive =&gt; Local Value =&gt; Master Value
+session.auto_start =&gt; Off =&gt; Off
+session.cache_expire =&gt; 180 =&gt; 180
+session.cache_limiter =&gt; nocache =&gt; nocache
+session.cookie_domain =&gt; no value =&gt; no value
+session.cookie_httponly =&gt; no value =&gt; no value
+session.cookie_lifetime =&gt; 0 =&gt; 0
+session.cookie_path =&gt; / =&gt; /
+session.cookie_samesite =&gt; no value =&gt; no value
+session.cookie_secure =&gt; 0 =&gt; 0
+session.gc_divisor =&gt; 1000 =&gt; 1000
+session.gc_maxlifetime =&gt; 1440 =&gt; 1440
+session.gc_probability =&gt; 1 =&gt; 1
+session.lazy_write =&gt; On =&gt; On
+session.name =&gt; PHPSESSID =&gt; PHPSESSID
+session.referer_check =&gt; no value =&gt; no value
+session.save_handler =&gt; files =&gt; files
+session.save_path =&gt; c:/wamp64/tmp =&gt; c:/wamp64/tmp
+session.serialize_handler =&gt; php =&gt; php
+session.sid_bits_per_character =&gt; 5 =&gt; 5
+session.sid_length =&gt; 26 =&gt; 26
+session.upload_progress.cleanup =&gt; On =&gt; On
+session.upload_progress.enabled =&gt; On =&gt; On
+session.upload_progress.freq =&gt; 1% =&gt; 1%
+session.upload_progress.min_freq =&gt; 1 =&gt; 1
+session.upload_progress.name =&gt; PHP_SESSION_UPLOAD_PROGRESS =&gt; PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix =&gt; upload_progress_ =&gt; upload_progress_
+session.use_cookies =&gt; 1 =&gt; 1
+session.use_only_cookies =&gt; 1 =&gt; 1
+session.use_strict_mode =&gt; 0 =&gt; 0
+session.use_trans_sid =&gt; 0 =&gt; 0
+
+SimpleXML
+
+SimpleXML support =&gt; enabled
+Schema support =&gt; enabled
+
+soap
+
+Soap Client =&gt; enabled
+Soap Server =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+soap.wsdl_cache =&gt; 1 =&gt; 1
+soap.wsdl_cache_dir =&gt; c:/wamp64/tmp =&gt; c:/wamp64/tmp
+soap.wsdl_cache_enabled =&gt; 1 =&gt; 1
+soap.wsdl_cache_limit =&gt; 5 =&gt; 5
+soap.wsdl_cache_ttl =&gt; 86400 =&gt; 86400
+
+sockets
+
+Sockets Support =&gt; enabled
+
+SPL
+
+SPL support =&gt; enabled
+Interfaces =&gt; OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes =&gt; AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+standard
+
+Dynamic Library Support =&gt; enabled
+Internal Sendmail Support for Windows =&gt; enabled
+
+Directive =&gt; Local Value =&gt; Master Value
+assert.active =&gt; 1 =&gt; 1
+assert.bail =&gt; 0 =&gt; 0
+assert.callback =&gt; no value =&gt; no value
+assert.exception =&gt; 0 =&gt; 0
+assert.quiet_eval =&gt; 0 =&gt; 0
+assert.warning =&gt; 1 =&gt; 1
+auto_detect_line_endings =&gt; 0 =&gt; 0
+default_socket_timeout =&gt; 60 =&gt; 60
+from =&gt; no value =&gt; no value
+session.trans_sid_hosts =&gt; no value =&gt; no value
+session.trans_sid_tags =&gt; a=href,area=href,frame=src,form= =&gt; a=href,area=href,frame=src,form=
+unserialize_max_depth =&gt; 4096 =&gt; 4096
+url_rewriter.hosts =&gt; no value =&gt; no value
+url_rewriter.tags =&gt; form= =&gt; form=
+user_agent =&gt; no value =&gt; no value
+
+tokenizer
+
+Tokenizer Support =&gt; enabled
+
+xdebug
+
+xdebug support =&gt; enabled
+Version =&gt; 2.9.6
+Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
+
+Debugger =&gt; enabled
+IDE Key =&gt; camil
+
+Directive =&gt; Local Value =&gt; Master Value
+xdebug.auto_trace =&gt; Off =&gt; Off
+xdebug.cli_color =&gt; 0 =&gt; 0
+xdebug.collect_assignments =&gt; Off =&gt; Off
+xdebug.collect_includes =&gt; On =&gt; On
+xdebug.collect_params =&gt; 0 =&gt; 0
+xdebug.collect_return =&gt; Off =&gt; Off
+xdebug.collect_vars =&gt; Off =&gt; Off
+xdebug.coverage_enable =&gt; On =&gt; On
+xdebug.default_enable =&gt; On =&gt; On
+xdebug.dump.COOKIE =&gt; no value =&gt; no value
+xdebug.dump.ENV =&gt; no value =&gt; no value
+xdebug.dump.FILES =&gt; no value =&gt; no value
+xdebug.dump.GET =&gt; no value =&gt; no value
+xdebug.dump.POST =&gt; no value =&gt; no value
+xdebug.dump.REQUEST =&gt; no value =&gt; no value
+xdebug.dump.SERVER =&gt; no value =&gt; no value
+xdebug.dump.SESSION =&gt; no value =&gt; no value
+xdebug.dump_globals =&gt; On =&gt; On
+xdebug.dump_once =&gt; On =&gt; On
+xdebug.dump_undefined =&gt; Off =&gt; Off
+xdebug.file_link_format =&gt; no value =&gt; no value
+xdebug.filename_format =&gt; no value =&gt; no value
+xdebug.force_display_errors =&gt; Off =&gt; Off
+xdebug.force_error_reporting =&gt; 0 =&gt; 0
+xdebug.gc_stats_enable =&gt; Off =&gt; Off
+xdebug.gc_stats_output_dir =&gt; C:\Windows\Temp =&gt; C:\Windows\Temp
+xdebug.gc_stats_output_name =&gt; gcstats.%p =&gt; gcstats.%p
+xdebug.halt_level =&gt; 0 =&gt; 0
+xdebug.idekey =&gt; no value =&gt; no value
+xdebug.max_nesting_level =&gt; 256 =&gt; 256
+xdebug.max_stack_frames =&gt; -1 =&gt; -1
+xdebug.overload_var_dump =&gt; 2 =&gt; 2
+xdebug.profiler_append =&gt; Off =&gt; Off
+xdebug.profiler_enable =&gt; Off =&gt; Off
+xdebug.profiler_enable_trigger =&gt; Off =&gt; Off
+xdebug.profiler_enable_trigger_value =&gt; no value =&gt; no value
+xdebug.profiler_output_dir =&gt; c:/wamp64/tmp =&gt; c:/wamp64/tmp
+xdebug.profiler_output_name =&gt; cachegrind.out.%t.%p =&gt; cachegrind.out.%t.%p
+xdebug.remote_addr_header =&gt; no value =&gt; no value
+xdebug.remote_autostart =&gt; On =&gt; On
+xdebug.remote_connect_back =&gt; Off =&gt; Off
+xdebug.remote_cookie_expire_time =&gt; 3600 =&gt; 3600
+xdebug.remote_enable =&gt; On =&gt; On
+xdebug.remote_host =&gt; localhost =&gt; localhost
+xdebug.remote_log =&gt; no value =&gt; no value
+xdebug.remote_log_level =&gt; 7 =&gt; 7
+xdebug.remote_mode =&gt; req =&gt; req
+xdebug.remote_port =&gt; 9000 =&gt; 9000
+xdebug.remote_timeout =&gt; 200 =&gt; 200
+xdebug.scream =&gt; Off =&gt; Off
+xdebug.show_error_trace =&gt; Off =&gt; Off
+xdebug.show_exception_trace =&gt; Off =&gt; Off
+xdebug.show_local_vars =&gt; On =&gt; On
+xdebug.show_mem_delta =&gt; Off =&gt; Off
+xdebug.trace_enable_trigger =&gt; Off =&gt; Off
+xdebug.trace_enable_trigger_value =&gt; no value =&gt; no value
+xdebug.trace_format =&gt; 0 =&gt; 0
+xdebug.trace_options =&gt; 0 =&gt; 0
+xdebug.trace_output_dir =&gt; C:\Windows\Temp =&gt; C:\Windows\Temp
+xdebug.trace_output_name =&gt; trace.%c =&gt; trace.%c
+xdebug.var_display_max_children =&gt; 128 =&gt; 128
+xdebug.var_display_max_data =&gt; 512 =&gt; 512
+xdebug.var_display_max_depth =&gt; 3 =&gt; 3
+
+xml
+
+XML Support =&gt; active
+XML Namespace Support =&gt; active
+libxml2 Version =&gt; 2.9.10
+
+xmlreader
+
+XMLReader =&gt; enabled
+
+xmlrpc
+
+core library version =&gt; xmlrpc-epi v. 0.51
+author =&gt; Dan Libby
+homepage =&gt; http://xmlrpc-epi.sourceforge.net
+open sourced by =&gt; Epinions.com
+
+xmlwriter
+
+XMLWriter =&gt; enabled
+
+xsl
+
+XSL =&gt; enabled
+libxslt Version =&gt; 1.1.32
+libxslt compiled against libxml Version =&gt; 2.9.7
+EXSLT =&gt; enabled
+libexslt Version =&gt; 0.8.20
+
+zip
+
+Zip =&gt; enabled
+Zip version =&gt; 1.15.6
+Libzip headers version =&gt; 1.5.2
+Libzip library version =&gt; 1.5.2
+
+zlib
+
+ZLib Support =&gt; enabled
+Stream Wrapper =&gt; compress.zlib://
+Stream Filter =&gt; zlib.inflate, zlib.deflate
+Compiled Version =&gt; 1.2.11
+Linked Version =&gt; 1.2.11
+
+Directive =&gt; Local Value =&gt; Master Value
+zlib.output_compression =&gt; Off =&gt; Off
+zlib.output_compression_level =&gt; -1 =&gt; -1
+zlib.output_handler =&gt; no value =&gt; no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable =&gt; Value
+ALLUSERSPROFILE =&gt; C:\ProgramData
+APPDATA =&gt; C:\Users\camil\AppData\Roaming
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL =&gt; true
+BIN_TARGET =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+ChocolateyInstall =&gt; C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate =&gt; 132656519442350566
+CHROME_CRASHPAD_PIPE_NAME =&gt; \\.\pipe\crashpad_30960_XYQCZFXWSGVWLULK
+CommonProgramFiles =&gt; C:\Program Files\Common Files
+CommonProgramFiles(x86) =&gt; C:\Program Files (x86)\Common Files
+CommonProgramW6432 =&gt; C:\Program Files\Common Files
+COMPUTERNAME =&gt; DESKTOP-3QG9MET
+ComSpec =&gt; C:\WINDOWS\system32\cmd.exe
+DriverData =&gt; C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE =&gt; C:
+HOMEPATH =&gt; \Users\camil
+LOCALAPPDATA =&gt; C:\Users\camil\AppData\Local
+LOGONSERVER =&gt; \\DESKTOP-3QG9MET
+NUMBER_OF_PROCESSORS =&gt; 4
+NVM_HOME =&gt; C:\Users\camil\AppData\Roaming\nvm
+NVM_SYMLINK =&gt; C:\Program Files\nodejs
+OneDrive =&gt; C:\Users\camil\OneDrive
+OneDriveConsumer =&gt; C:\Users\camil\OneDrive
+ORIGINAL_XDG_CURRENT_DESKTOP =&gt; undefined
+OS =&gt; Windows_NT
+Path =&gt; C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\camil\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Users\camil\AppData\Roaming\npm;C:\Users\camil\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\composer;C:\Users\camil\AppData\Roaming\Composer;C:\wamp64\bin\php\php7.4.9;C:\Program Files\Redis;C:\Users\camil\AppData\Local\Microsoft\WindowsApps;C:\Users\camil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\camil\AppData\Roaming\Composer\vendor\bin
+PATHEXT =&gt; .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE =&gt; AMD64
+PROCESSOR_IDENTIFIER =&gt; Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL =&gt; 6
+PROCESSOR_REVISION =&gt; 8e09
+ProgramData =&gt; C:\ProgramData
+ProgramFiles =&gt; C:\Program Files
+ProgramFiles(x86) =&gt; C:\Program Files (x86)
+ProgramW6432 =&gt; C:\Program Files
+PROMPT =&gt; $P$G
+PSModulePath =&gt; C:\Users\camil\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC =&gt; C:\Users\Public
+SystemDrive =&gt; C:
+SystemRoot =&gt; C:\WINDOWS
+TEMP =&gt; C:\Users\camil\AppData\Local\Temp
+TMP =&gt; C:\Users\camil\AppData\Local\Temp
+USERDOMAIN =&gt; DESKTOP-3QG9MET
+USERDOMAIN_ROAMINGPROFILE =&gt; DESKTOP-3QG9MET
+USERNAME =&gt; camil
+USERPROFILE =&gt; C:\Users\camil
+windir =&gt; C:\WINDOWS
+WSLENV =&gt; WT_SESSION::WT_PROFILE_ID
+WT_PROFILE_ID =&gt; {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+WT_SESSION =&gt; 33a755c7-933c-4135-8b82-f26327220ea5
+ZES_ENABLE_SYSMAN =&gt; 1
+TERM_PROGRAM =&gt; vscode
+TERM_PROGRAM_VERSION =&gt; 1.56.2
+LANG =&gt; pt_BR.UTF-8
+COLORTERM =&gt; truecolor
+VSCODE_GIT_IPC_HANDLE =&gt; \\.\pipe\vscode-git-1e1b06ccec-sock
+GIT_ASKPASS =&gt; c:\Users\camil\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+VSCODE_GIT_ASKPASS_NODE =&gt; C:\Users\camil\AppData\Local\Programs\Microsoft VS Code\Code.exe
+VSCODE_GIT_ASKPASS_MAIN =&gt; c:\Users\camil\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+
+PHP Variables
+
+Variable =&gt; Value
+$_SERVER['ALLUSERSPROFILE'] =&gt; C:\ProgramData
+$_SERVER['APPDATA'] =&gt; C:\Users\camil\AppData\Roaming
+$_SERVER['APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL'] =&gt; true
+$_SERVER['BIN_TARGET'] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+$_SERVER['ChocolateyInstall'] =&gt; C:\ProgramData\chocolatey
+$_SERVER['ChocolateyLastPathUpdate'] =&gt; 132656519442350566
+$_SERVER['CHROME_CRASHPAD_PIPE_NAME'] =&gt; \\.\pipe\crashpad_30960_XYQCZFXWSGVWLULK
+$_SERVER['CommonProgramFiles'] =&gt; C:\Program Files\Common Files
+$_SERVER['CommonProgramFiles(x86)'] =&gt; C:\Program Files (x86)\Common Files
+$_SERVER['CommonProgramW6432'] =&gt; C:\Program Files\Common Files
+$_SERVER['COMPUTERNAME'] =&gt; DESKTOP-3QG9MET
+$_SERVER['ComSpec'] =&gt; C:\WINDOWS\system32\cmd.exe
+$_SERVER['DriverData'] =&gt; C:\Windows\System32\Drivers\DriverData
+$_SERVER['HOMEDRIVE'] =&gt; C:
+$_SERVER['HOMEPATH'] =&gt; \Users\camil
+$_SERVER['LOCALAPPDATA'] =&gt; C:\Users\camil\AppData\Local
+$_SERVER['LOGONSERVER'] =&gt; \\DESKTOP-3QG9MET
+$_SERVER['NUMBER_OF_PROCESSORS'] =&gt; 4
+$_SERVER['NVM_HOME'] =&gt; C:\Users\camil\AppData\Roaming\nvm
+$_SERVER['NVM_SYMLINK'] =&gt; C:\Program Files\nodejs
+$_SERVER['OneDrive'] =&gt; C:\Users\camil\OneDrive
+$_SERVER['OneDriveConsumer'] =&gt; C:\Users\camil\OneDrive
+$_SERVER['ORIGINAL_XDG_CURRENT_DESKTOP'] =&gt; undefined
+$_SERVER['OS'] =&gt; Windows_NT
+$_SERVER['Path'] =&gt; C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\camil\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Users\camil\AppData\Roaming\npm;C:\Users\camil\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\composer;C:\Users\camil\AppData\Roaming\Composer;C:\wamp64\bin\php\php7.4.9;C:\Program Files\Redis;C:\Users\camil\AppData\Local\Microsoft\WindowsApps;C:\Users\camil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\camil\AppData\Roaming\Composer\vendor\bin
+$_SERVER['PATHEXT'] =&gt; .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+$_SERVER['PROCESSOR_ARCHITECTURE'] =&gt; AMD64
+$_SERVER['PROCESSOR_IDENTIFIER'] =&gt; Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+$_SERVER['PROCESSOR_LEVEL'] =&gt; 6
+$_SERVER['PROCESSOR_REVISION'] =&gt; 8e09
+$_SERVER['ProgramData'] =&gt; C:\ProgramData
+$_SERVER['ProgramFiles'] =&gt; C:\Program Files
+$_SERVER['ProgramFiles(x86)'] =&gt; C:\Program Files (x86)
+$_SERVER['ProgramW6432'] =&gt; C:\Program Files
+$_SERVER['PROMPT'] =&gt; $P$G
+$_SERVER['PSModulePath'] =&gt; C:\Users\camil\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+$_SERVER['PUBLIC'] =&gt; C:\Users\Public
+$_SERVER['SystemDrive'] =&gt; C:
+$_SERVER['SystemRoot'] =&gt; C:\WINDOWS
+$_SERVER['TEMP'] =&gt; C:\Users\camil\AppData\Local\Temp
+$_SERVER['TMP'] =&gt; C:\Users\camil\AppData\Local\Temp
+$_SERVER['USERDOMAIN'] =&gt; DESKTOP-3QG9MET
+$_SERVER['USERDOMAIN_ROAMINGPROFILE'] =&gt; DESKTOP-3QG9MET
+$_SERVER['USERNAME'] =&gt; camil
+$_SERVER['USERPROFILE'] =&gt; C:\Users\camil
+$_SERVER['windir'] =&gt; C:\WINDOWS
+$_SERVER['WSLENV'] =&gt; WT_SESSION::WT_PROFILE_ID
+$_SERVER['WT_PROFILE_ID'] =&gt; {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+$_SERVER['WT_SESSION'] =&gt; 33a755c7-933c-4135-8b82-f26327220ea5
+$_SERVER['ZES_ENABLE_SYSMAN'] =&gt; 1
+$_SERVER['TERM_PROGRAM'] =&gt; vscode
+$_SERVER['TERM_PROGRAM_VERSION'] =&gt; 1.56.2
+$_SERVER['LANG'] =&gt; pt_BR.UTF-8
+$_SERVER['COLORTERM'] =&gt; truecolor
+$_SERVER['VSCODE_GIT_IPC_HANDLE'] =&gt; \\.\pipe\vscode-git-1e1b06ccec-sock
+$_SERVER['GIT_ASKPASS'] =&gt; c:\Users\camil\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+$_SERVER['VSCODE_GIT_ASKPASS_NODE'] =&gt; C:\Users\camil\AppData\Local\Programs\Microsoft VS Code\Code.exe
+$_SERVER['VSCODE_GIT_ASKPASS_MAIN'] =&gt; c:\Users\camil\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+$_SERVER['PHP_SELF'] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+$_SERVER['SCRIPT_NAME'] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+$_SERVER['SCRIPT_FILENAME'] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+$_SERVER['PATH_TRANSLATED'] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+$_SERVER['DOCUMENT_ROOT'] =&gt; 
+$_SERVER['REQUEST_TIME_FLOAT'] =&gt; 1622466607.4959
+$_SERVER['REQUEST_TIME'] =&gt; 1622466607
+$_SERVER['argv'] =&gt; Array
+(
+    [0] =&gt; C:\wamp64\www\api-laravel\vendor\bin\/../phpunit/phpunit/phpunit
+    [1] =&gt; --configuration
+    [2] =&gt; ./phpunit.xml
+    [3] =&gt; --coverage-clover=coverage-result.xml
+    [4] =&gt; --log-junit=execution-result.xml
+)
+
+$_SERVER['argc'] =&gt; 5
+$_SERVER['APP_ENV'] =&gt; testing
+$_SERVER['BCRYPT_ROUNDS'] =&gt; 4
+$_SERVER['CACHE_DRIVER'] =&gt; redis
+$_SERVER['DB_CONNECTION'] =&gt; mysql
+$_SERVER['DB_DATABASE'] =&gt; :memory:
+$_SERVER['MAIL_MAILER'] =&gt; array
+$_SERVER['QUEUE_CONNECTION'] =&gt; sync
+$_SERVER['SESSION_DRIVER'] =&gt; array
+$_SERVER['TELESCOPE_ENABLED'] =&gt; 
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.
+</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

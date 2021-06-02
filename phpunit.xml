@@ -9,15 +9,19 @@
             <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
         <testsuite name="Feature">
-            <directory suffix="Test.php">./tests/Feature</directory>
+            <directory suffix=".php">./tests/Feature</directory>
         </testsuite>
+        <!-- <testsuite name="app">
+            <directory suffix=".php">./tests/app</directory>
+        </testsuite> -->
     </testsuites>
+
     <coverage processUncoveredFiles="true">
         <include>
-            <directory suffix=".php">./app</directory>
+            <directory suffix=".php">./tests/Feature</directory>
         </include>
         <report>
-            <xml outputDirectory="reports/coverage"/>
+            <html outputDirectory="reports/coverage"/>
         </report>
     </coverage>
     <php>
