@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622677614">
-  <project timestamp="1622677614">
+<coverage generated="1622677203">
+  <project timestamp="1622677203">
     <file name="C:\wamp64\www\api-laravel\tests\Personalizados\AuthenticationTest.php">
       <class name="Tests\Feature\AuthenticationTest" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="19" coveredelements="19"/>

@@ -1,5 +1,5 @@
 <?php
-namespace Tests\Feature;
+namespace Tests\Personalizados;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
