@@ -1,25 +1,41 @@
-version: '3'
+version: "3.7"
 
 services:
-  laravel-app:
-    build: .
+  app:
+    build:
+      args:
+        user: mila
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: api-laravel
     ports:
-      - "3003:80"
+      - "8000:8000"
+    container_name: api-laravel-app
+    restart: unless-stopped
+    working_dir: /var/www/
     volumes:
-      - ./:/usr/share/nginx
-      - .docker/nginx:/etc/nginx/conf.d/
+      - ./:/var/www
     networks:
       - app-network
-  mysql-app:
-    image: mysql:5.7.22
+  nginx:
+    image: nginx:1.17-alpine
     ports:
-      - "3306:3306"
+      - "80:80"
+    networks:
+      - app-network  
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d            
+  mysql-app:
+    image: mysql:5.7
+    ports:
+      - "3305:3307"
     volumes:
       - .docker/dbdata:/var/lib/mysql
     environment:
       MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_ROOT_PASSWORD: root
     networks:
       - app-network
   redis-app:

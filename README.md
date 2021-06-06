@@ -1,6 +1,6 @@
 
 ## SOBRE O PROJETO
-É uma api em laravel, utiza, o sistema phpunit, coverage e a tecnologia redis para o cacheamento.
+É uma api em laravel, ultiza, o sistema phpunit, coverage e a tecnologia redis para o cacheamento.
 
 ### OBJETIVO
 Aprendizado pessoal.

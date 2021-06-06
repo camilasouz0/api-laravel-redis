@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="18" assertions="30" errors="0" warnings="0" failures="0" skipped="0" time="7.999925">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.066009">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\wamp64\www\api-laravel\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.066009">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\wamp64\www\api-laravel\tests\Unit\ExampleTest.php" line="14" assertions="1" time="0.066009"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Personalizados" tests="17" assertions="29" errors="0" warnings="0" failures="0" skipped="0" time="7.933916">
+      <testsuite name="Tests\Feature\AuthenticationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\AuthenticationTest.php" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="3.288737">
+        <testcase name="test_login_screen_can_be_rendered" class="Tests\Feature\AuthenticationTest" classname="Tests.Feature.AuthenticationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\AuthenticationTest.php" line="15" assertions="1" time="2.486995"/>
+        <testcase name="test_users_can_authenticate_using_the_login_screen" class="Tests\Feature\AuthenticationTest" classname="Tests.Feature.AuthenticationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\AuthenticationTest.php" line="22" assertions="3" time="0.513752"/>
+        <testcase name="test_users_can_not_authenticate_with_invalid_password" class="Tests\Feature\AuthenticationTest" classname="Tests.Feature.AuthenticationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\AuthenticationTest.php" line="37" assertions="1" time="0.287991"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\CatControllerTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\CatControllerTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.122012">
+        <testcase name="test_index" class="Tests\Personalizados\CatControllerTest" classname="Tests.Personalizados.CatControllerTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\CatControllerTest.php" line="14" assertions="3" time="0.122012"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\EmailVerificationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\EmailVerificationTest.php" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.623917">
+        <testcase name="test_email_verification_screen_can_be_rendered" class="Tests\Personalizados\EmailVerificationTest" classname="Tests.Personalizados.EmailVerificationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\EmailVerificationTest.php" line="17" assertions="1" time="0.178434"/>
+        <testcase name="test_email_can_be_verified" class="Tests\Personalizados\EmailVerificationTest" classname="Tests.Personalizados.EmailVerificationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\EmailVerificationTest.php" line="28" assertions="4" time="0.215549"/>
+        <testcase name="test_email_is_not_verified_with_invalid_hash" class="Tests\Personalizados\EmailVerificationTest" classname="Tests.Personalizados.EmailVerificationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\EmailVerificationTest.php" line="49" assertions="1" time="0.229933"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\PasswordConfirmationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordConfirmationTest.php" tests="3" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.713548">
+        <testcase name="test_confirm_password_screen_can_be_rendered" class="Tests\Personalizados\PasswordConfirmationTest" classname="Tests.Personalizados.PasswordConfirmationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordConfirmationTest.php" line="13" assertions="1" time="0.166255"/>
+        <testcase name="test_password_can_be_confirmed" class="Tests\Personalizados\PasswordConfirmationTest" classname="Tests.Personalizados.PasswordConfirmationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordConfirmationTest.php" line="22" assertions="2" time="0.263727"/>
+        <testcase name="test_password_is_not_confirmed_with_invalid_password" class="Tests\Personalizados\PasswordConfirmationTest" classname="Tests.Personalizados.PasswordConfirmationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordConfirmationTest.php" line="34" assertions="1" time="0.283567"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\PasswordResetTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordResetTest.php" tests="4" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="1.480416">
+        <testcase name="test_reset_password_link_screen_can_be_rendered" class="Tests\Personalizados\PasswordResetTest" classname="Tests.Personalizados.PasswordResetTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordResetTest.php" line="15" assertions="1" time="0.142154"/>
+        <testcase name="test_reset_password_link_can_be_requested" class="Tests\Personalizados\PasswordResetTest" classname="Tests.Personalizados.PasswordResetTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordResetTest.php" line="22" assertions="1" time="0.400636"/>
+        <testcase name="test_reset_password_screen_can_be_rendered" class="Tests\Personalizados\PasswordResetTest" classname="Tests.Personalizados.PasswordResetTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordResetTest.php" line="33" assertions="2" time="0.368488"/>
+        <testcase name="test_password_can_be_reset_with_valid_token" class="Tests\Personalizados\PasswordResetTest" classname="Tests.Personalizados.PasswordResetTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\PasswordResetTest.php" line="50" assertions="2" time="0.569138"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\RedisControllerTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\RedisControllerTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="1.020151">
+        <testcase name="test_getApi" class="Tests\Personalizados\RedisControllerTest" classname="Tests.Personalizados.RedisControllerTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\RedisControllerTest.php" line="20" assertions="1" time="1.020151"/>
+      </testsuite>
+      <testsuite name="Tests\Personalizados\RegistrationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\RegistrationTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.685135">
+        <testcase name="test_registration_screen_can_be_rendered" class="Tests\Personalizados\RegistrationTest" classname="Tests.Personalizados.RegistrationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\RegistrationTest.php" line="13" assertions="1" time="0.244067"/>
+        <testcase name="test_new_users_can_register" class="Tests\Personalizados\RegistrationTest" classname="Tests.Personalizados.RegistrationTest" file="C:\wamp64\www\api-laravel\tests\Personalizados\RegistrationTest.php" line="20" assertions="3" time="0.441068"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

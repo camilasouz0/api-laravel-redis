@@ -18,6 +18,7 @@
 
     <logging>
         <junit outputFile="junit.xml"/>
+        <log type="coverage-clover" target="coverage.xml"/>
     </logging>
 
     <coverage>
