@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-RUN chmod -R 777 /usr/share/nginx/storage
+#RUN chmod -R 777 /usr/share/nginx/storage/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
@@ -34,3 +34,6 @@ RUN mkdir -p /home/$user/.composer && \
 WORKDIR /var/www
 
 USER $user
+
+COPY ./run.sh /tmp    
+ENTRYPOINT ["/tmp/run.sh"]
